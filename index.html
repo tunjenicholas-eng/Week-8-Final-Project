@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NICHOLAS TUNJE | Photography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/index.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">NICHOLAS TUNJE</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Capturing Life's Beautiful Moments</h1>
+            <p class="hero-subtitle">Professional photography for weddings, portraits, and commercial projects</p>
+            <a href="#portfolio" class="btn btn-primary">View My Work</a>
+        </div>
+        <div class="hero-image">
+            <img src="./public/images/hero.jpg" alt="hero-image" style="width:100%;height:400px;object-fit:cover;border-radius:8px;">
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="wedding">Wedding</button>
+                <button class="filter-btn" data-filter="portrait">Portrait</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="landscape">Landscape</button>
+            </div>
+            <div class="portfolio-grid">
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    
+                    <img src="./public/images/Nicho.jpg" alt="hero-image" style="width:100%;max-width:350px;border-radius:8px;">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I'm NICHOLAS TUNJE, a professional photographer with over 8 years of experience capturing special moments and creating visual stories. My passion for photography began during my travels around the world, where I discovered the power of images to preserve memories and evoke emotions.</p>
+                    <p>Specializing in wedding, portrait, and commercial photography, I approach each project with creativity, attention to detail, and a commitment to exceeding my clients' expectations.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">Awards Won</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💒</div>
+                    <h3>Wedding Photography</h3>
+                    <p>Capture your special day with beautiful, timeless photographs that tell the story of your wedding.</p>
+                    <ul>
+                        <li>Pre-wedding consultation</li>
+                        <li>Full-day coverage</li>
+                        <li>Professional editing</li>
+                        <li>Online gallery</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Inquire</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Portrait Sessions</h3>
+                    <p>Professional portraits for individuals, families, and couples in natural or studio settings.</p>
+                    <ul>
+                        <li>1-2 hour session</li>
+                        <li>Multiple locations</li>
+                        <li>Professional retouching</li>
+                        <li>Digital downloads</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Inquire</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Commercial Photography</h3>
+                    <p>High-quality images for businesses, products, and marketing materials.</p>
+                    <ul>
+                        <li>Product photography</li>
+                        <li>Corporate headshots</li>
+                        <li>Architectural photography</li>
+                        <li>Brand storytelling</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Inquire</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <p>"Florence captured our wedding day perfectly. Her attention to detail and ability to capture genuine emotions resulted in photos we will treasure forever."</p>
+                    <div class="client-info">
+                        <span class="client-name">Sarah & Michael</span>
+                        <span class="client-event">Wedding</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"The family portraits FLORENCE took are absolutely stunning. She made us all feel comfortable and captured our family's personality beautifully."</p>
+                    <div class="client-info">
+                        <span class="client-name">The Jevans Family</span>
+                        <span class="client-event">Family Portraits</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"Working with FLORENCE on our product photography was a pleasure. Her creative eye helped elevate our brand imagery significantly."</p>
+                    <div class="client-info">
+                        <span class="client-name">James Wilson</span>
+                        <span class="client-event">Commercial Project</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Create Something Beautiful Together</h3>
+                    <p>I'd love to hear about your project and discuss how we can work together to capture your special moments.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>nm.tunje@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+254746779401</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>shop45 along ngong road nairobi</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Pinterest">Pinterest</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="wedding">Wedding Photography</option>
+                                <option value="portrait">Portrait Session</option>
+                                <option value="commercial">Commercial Photography</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Nicholas Tunje Photography</h3>
+                    <p>Capturing life's beautiful moments with creativity and passion.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="#services">Wedding Photography</a>
+                    <a href="#services">Portrait Sessions</a>
+                    <a href="#services">Commercial Photography</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nicholas Tunje Photography. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-desc"></p>
+            </div>
+        </div>
+        <button class="lightbox-nav prev">&#10094;</button>
+        <button class="lightbox-nav next">&#10095;</button>
+    </div>
+    <script src="./src/indexScript.js"></script>
+</body>
+</html>
+
