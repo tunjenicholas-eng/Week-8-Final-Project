@@ -5,7 +5,7 @@ const portfolioItems = [
         title: "Sunset Wedding",
         category: "wedding",
         description: "Beautiful outdoor wedding ceremony at golden hour",
-        image: "./public/images/sunset w.jpg"
+        image: "./public/images/sunset-w.jpg"
     },
     {
         id: 2,
@@ -54,7 +54,7 @@ const portfolioItems = [
         title: "Coastal Scenery",
         category: "landscape",
         description: "Dramatic coastal landscape with crashing waves",
-        image: "./public/images/costal.jpg"
+        image: "./public/images/coastal.jpg"
     },
     {
         id: 9,
